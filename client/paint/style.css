@@ -6,7 +6,7 @@
   -o-border-radius: 3px;
   border-radius: 3px;
   padding: 10px;
-  margin-bottom: 10px;
+  margin: 20px;
   -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15);
   -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15);
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15); }
@@ -160,4 +160,32 @@ body {
   clear: both;
   margin-bottom: 5px;
   pointer-events: auto;
+}
+
+/*GLOBALS*/
+
+div.container {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+html, div.container, div#main.row-fluid {
+  background-color: #222;
+}
+
+.navbar-inverse .navbar-brand {
+  color: #999;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+.navbar-inverse .navbar-brand span {
+  color: #ED8265;
+
+}
+.navbar-inverse .navbar-brand:hover span {
+  color: #E85D37;
+}
+
+.post {
+  border-radius: 0px;
 }
